@@ -9,4 +9,12 @@ Accurate prediction of the turnover number ($k_{\rm cat}$), which quantifies the
 ```python
 pip install -r requirements.txt
 ```
+
 ### 2. Prepare data
+You can download the splitted data from (this link.)[www.example.com], and then put them into folder 'data'.
+
+### 3. Perform $k_{\rm cat}$ prediction
+```python
+cd model
+python test_model.py
+```
