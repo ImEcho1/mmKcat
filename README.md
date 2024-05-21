@@ -10,11 +10,15 @@ Accurate prediction of the turnover number ($k_{\rm cat}$), which quantifies the
 pip install -r requirements.txt
 ```
 
-### 2. Prepare data
-You can download the splitted data from (this link.)[www.example.com], and then put them into folder 'data'.
+### 2. Download Pre-trained model checkpoint
+You can download the pre-trained checkpoint of __mmKcat__ from (this link.)[www.example1.com], and then put them into the folder __'ckpt'__.
 
-### 3. Perform $k_{\rm cat}$ prediction
+### 3. Download data
+You can download the splitted data from (this link.)[www.example2.com], and then put them into the folder __'data'__.
+
+### 4. Perform $k_{\rm cat}$ prediction
 ```python
 cd model
 python test_model.py
 ```
+Then the experimental results will be saved into a .csv file.
