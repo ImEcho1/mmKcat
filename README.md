@@ -11,10 +11,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download Pre-trained model checkpoint
-You can download the pre-trained checkpoint of __mmKcat__ from (this link.)[www.example1.com], and then put them into the folder __'ckpt'__.
+You can download the pre-trained checkpoint of __mmKcat__ from [this link](www.example1.com)., and then put them into the folder __'ckpt'__.
 
 ### 3. Download data
-You can download the splitted data from (this link.)[www.example2.com], and then put them into the folder __'data'__.
+You can download the splitted data from [this link](www.example2.com), and then put them into the folder __'data'__.
 
 ### 4. Perform $k_{\rm cat}$ prediction
 ```python
